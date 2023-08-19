@@ -1,6 +1,5 @@
 local M = {}
 
--- 使用这个autocmd的条件是使用mac输入法
 M.sougouIM = "com.sogou.inputmethod.sogou.pinyin"
 M.rime = "im.rime.inputmethod.Squirrel.Hans"
 M.defaultIM = "com.apple.keylayout.ABC"

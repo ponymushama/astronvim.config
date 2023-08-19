@@ -99,20 +99,20 @@ return {
       -- https://github.com/daipeihust/im-select
       autocmd("InsertLeave", {
         group = myAutoGroup,
-        callback = require("utils.im-select").macInsertLeave,
+        callback = require("im-select").macInsertLeave,
       })
       autocmd("InsertEnter", {
         group = myAutoGroup,
-        callback = require("utils.im-select").macInsertEnter,
+        callback = require("im-select").macInsertEnter,
       })
       -- 当vim获得焦点和失去焦点的时候触发
       autocmd("FocusGained", {
         group = myAutoGroup,
-        callback = require("utils.im-select").macFocusGained,
+        callback = require("im-select").macFocusGained,
       })
       autocmd("FocusLost", {
         group = myAutoGroup,
-        callback = require("utils.im-select").macFocusLost,
+        callback = require("im-select").macFocusLost,
       })
     elseif system == "Windows" then
     end
