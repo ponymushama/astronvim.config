@@ -19,6 +19,7 @@ return {
 
   -- Set colorscheme to use
   colorscheme = "catppuccin",
+
   plugins = {
     {
       "catppuccin/nvim",
@@ -28,6 +29,7 @@ return {
   },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
+
   diagnostics = {
     virtual_text = true,
     underline = true,
