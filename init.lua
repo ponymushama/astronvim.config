@@ -18,15 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "catppuccin",
-
-  plugins = {
-    {
-      "catppuccin/nvim",
-      name = "catppuccin",
-      config = function() require("catppuccin").setup {} end,
-    },
-  },
+  colorscheme = "kanagawa",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
 
